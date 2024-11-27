@@ -1,0 +1,37 @@
+/* Import Barlow font from Google font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: rgb(1, 1, 22);
+}
+
+/* Styling for Navbar */
+/* #navbar {
+  box-shadow: 0 1px 2px white;
+} */
+.me-auto{
+  /* background-color: red; */
+  display: flex;
+  gap: 56px;
+  margin-left: 160px;
+}
+#navbarScroll {
+  font-size: 20px;
+  font-family: "Barlow", sans-serif;
+}
+
+/* Responsiveness for the Container that comes with the Navbar */
+/* @media only screen and (max-width: 400px) {
+  .container-fluid {
+    max-width: 100%;
+  }
+} */
+
+
+
+/* Styling for Resume page */
+#resume {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  color: beige;
+}

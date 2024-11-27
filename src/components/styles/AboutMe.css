@@ -1,0 +1,17 @@
+/* Styling for the About me section  */
+#aboutme {
+    position: relative;
+  }
+  #aboutme img {
+    opacity: 0.2;
+    width: auto;
+    overflow: hidden;
+  }
+  .aboutmeText {
+    font-family: "Barlow", sans-serif;
+    color: rgb(218, 215, 215);
+    padding: 60px;
+    position: absolute;
+    top: 250px;
+  }
+  

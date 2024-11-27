@@ -1,0 +1,26 @@
+/* Styling for footer section  */
+#footer {
+    font-family: "Barlow", sans-serif;
+    background-color: rgb(1, 1, 22);
+    padding: 40px 0px;
+    height: 250px;
+  }
+  #footer h3 {
+    text-align: center;
+    color: beige;
+  }
+  .footerIcons {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footerIcon {
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  .footerIcon:hover {
+    scale: 1.2;
+    background-color: azure;
+  }
+  

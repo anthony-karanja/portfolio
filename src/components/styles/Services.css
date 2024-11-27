@@ -1,0 +1,111 @@
+/* Styling for Services section  */
+.serviceImage {
+    opacity: 0.2;
+    position: relative;
+    width: 100%;
+  }
+  #services {
+    font-family: "Barlow", sans-serif;
+    position: relative;
+  }
+  #services h2 {
+    font-family: "Barlow", sans-serif;
+    font-size: 44px;
+    padding-top: 44px;
+    text-align: center;
+    color: beige;
+    position: absolute;
+    top: 40px;
+    left: 44%;
+  }
+  #myServices {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    left: 24%;
+    top: 280px;
+  }
+  .dev {
+    background-color: rgb(13, 13, 14);
+    color: grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .codeIcon {
+    margin: 0px 0px 24px 0px;
+    position: relative;
+    left: 36%;
+  }
+  .design {
+    background-color: rgb(13, 13, 14);
+    color: grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  .designIcon {
+    margin: 0px 0px 24px 0px;
+    position: relative;
+    left: 36%;
+  }
+  @media only screen and (max-width: 700px) {
+    .card {
+      width: 18rem;
+    }
+    #services {
+      font-family: "Barlow", sans-serif;
+      margin: 40px 0px;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(17, 17, 29);
+      /* height: 1200px; */
+      position: relative;
+      padding-bottom: 136px;
+    }
+    .serviceImage {
+      display: none;
+    }
+    #services h2 {
+      font-family: "Barlow", sans-serif;
+      font-size: 32px;
+      /* padding-top: 44px; */
+      text-align: center;
+      color: beige;
+      background-color: rgb(9, 9, 20);
+    }
+    #myServices {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      width: auto;
+      position: relative;
+      top: 160px;
+      left: 0px;
+      margin: 0px 0px 40px 0px;
+      background-color: rgb(9, 9, 20);
+    }
+    .dev {
+      background-color: rgb(13, 13, 14);
+      color: grey;
+      padding: 12px;
+      border-radius: 12px;
+    }
+    .codeIcon {
+      margin: 0px 0px 24px 0px;
+      position: relative;
+      left: 36%;
+    }
+    .design {
+      background-color: rgb(13, 13, 14);
+      color: grey;
+      padding: 12px;
+      border-radius: 12px;
+    }
+    .designIcon {
+      margin: 0px 0px 24px 0px;
+      position: relative;
+      left: 36%;
+    }
+  }
