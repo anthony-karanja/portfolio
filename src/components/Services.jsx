@@ -43,6 +43,7 @@ function Services() {
                 <Card.Text>
                   <ul>
                     <li>Python</li>
+                    <li>JavaScript</li>
                   </ul>
                 </Card.Text>
             </Card.Body>

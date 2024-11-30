@@ -10,7 +10,7 @@ function Projects() {
           name: "Job Portal",
           description: "Built with Django for job applications.",
           technologies: ["Python"],
-            githubLink: "https://github.com/monicah-monic",
+          githubLink: "https://github.com/monicah-monic",
         },
       ];
   return (
